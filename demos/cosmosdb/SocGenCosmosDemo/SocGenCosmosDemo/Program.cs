@@ -6,9 +6,9 @@ namespace SocGenCosmosDemo
     class Program
     {
         // The Azure Cosmos DB endpoint for running this sample.
-        private static readonly string EndpointUri = "https://socgencosmosdbdemo.documents.azure.com:443/";
+        private static readonly string EndpointUri = "<Endpoint Uri>";
         // The primary key for the Azure Cosmos account.
-        private static readonly string PrimaryKey = "NAH6Y4YjGl7pfRNWn4A5guMABMhjjToTIyQ5aOQMxxbvSYY5kVGbEJPkFIdD3EWokwKkPIiT0ePEydRiptZEWw==";
+        private static readonly string PrimaryKey = "<Primary Key>";
 
         // The Cosmos client instance
         private CosmosClient? cosmosClient;
